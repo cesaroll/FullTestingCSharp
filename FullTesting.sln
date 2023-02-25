@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersService", "UsersService", "{78981C5E-4C9C-411A-B0B3-FFA74612A388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestingLib", "TestingLib", "{48AC0B7D-D076-4D67-BCE2-494808D8D622}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E823A565-D55F-4131-900B-EE76CB734F93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3E06B4A4-1960-466D-89B5-D422DCEB3A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api", "UsersService\src\Users.Api\Users.Api\Users.Api.csproj", "{FBB5D310-D497-44F8-B4AB-C260A7292486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB5D310-D497-44F8-B4AB-C260A7292486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB5D310-D497-44F8-B4AB-C260A7292486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB5D310-D497-44F8-B4AB-C260A7292486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB5D310-D497-44F8-B4AB-C260A7292486}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E823A565-D55F-4131-900B-EE76CB734F93} = {78981C5E-4C9C-411A-B0B3-FFA74612A388}
+		{3E06B4A4-1960-466D-89B5-D422DCEB3A92} = {78981C5E-4C9C-411A-B0B3-FFA74612A388}
+		{FBB5D310-D497-44F8-B4AB-C260A7292486} = {E823A565-D55F-4131-900B-EE76CB734F93}
+	EndGlobalSection
+EndGlobal
